@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environnements virtuels
+.venv/
+env/
+
+# BDD locale
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
