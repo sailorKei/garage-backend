@@ -8,6 +8,8 @@ from fastapi.security import OAuth2PasswordBearer
 from dotenv import load_dotenv
 from .database.models import User
 from .database import SessionDep
+from sqlmodel import select
+
 
 # Charger le .env
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "..", "..", "api", ".env"))
